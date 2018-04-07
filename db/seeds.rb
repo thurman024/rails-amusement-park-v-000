@@ -1,4 +1,8 @@
 # coding: utf-8
+User.destroy_all
+Attraction.destroy_all
+Ride.destroy_all
+
 DATA = {
   :user_keys =>
     ["name", "nausea", "happiness", "tickets", "height", "password"],
